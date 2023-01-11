@@ -1,0 +1,9 @@
+trace1: trace_mpeg2enc_1img_libmpeg2encpp
+    60%+ perf between base and perfect, 8% speedup with prediction
+    compression
+    1 img trace, 00000
+    only images of libmjpegutils-2.1.so.0
+    command: 
+        jpeg2yuv -f 25 -I p -j input_frames_resized_img1/%05d.jpg > jpeg2yuv_1img.yuv // run beforehand
+        mpeg2enc jpeg2yuv_1img.yuv -o mpegfile.m1v //for evaluation (use pin.sh)
+    

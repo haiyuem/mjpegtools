@@ -1,0 +1,6 @@
+mjpegtools-2.2.1: Downloaded from https://sourceforge.net/projects/mjpeg/files/
+source code of mjpegtools, however, currently I'm using the ubuntu package mjpegtools directly and not using the source code built from file
+sudo apt install mjpegtools 
+
+image
+    Contains all images that are used and commands to process them 
